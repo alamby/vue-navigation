@@ -3,8 +3,9 @@
 ---
 demo:http://nav.fanc.win/
 
-基于vue，ajax请求采用es7的async/await实现
+基于vue,ajax请求采用es7的async/await实现
 
 - 快速
 - 简洁
 - [设计采用MDUI(Material Design)](https://github.com/zdhxiong/mdui)
+- webpack由于兼容性问题，降级到1.13.2
