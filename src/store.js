@@ -15,7 +15,6 @@ export default {
     window.localStorage.setItem(TODO_kEY, JSON.stringify(items))
   },
   setCookie(c_name, value, expiredays){
-    console.log("c_name:"+c_name+",value:"+value);
     var exdate=new Date();
     exdate.setDate(exdate.getDate() + expiredays);
     document.cookie = c_name + "=" + escape(value)+

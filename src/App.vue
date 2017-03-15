@@ -314,7 +314,6 @@ $(document).ready(function() {
   // var cityid = 101020100;
   var appkey = "4f1c1905525258f1";
   var citycode = Store.getCookie("citycode");
-  //console.log("aa:"+citycode);
   var url = "http://api.jisuapi.com/weather/query?appkey=" + appkey + "&citycode=" + citycode;
 
   var weatherJson;
@@ -343,7 +342,6 @@ $(document).ready(function() {
     var weather = new Array();
     var temp = new Array();
     weather[0] = weatherJson.result.weather;
-    weather[0] = weatherJson.result.daily[0].day.weather;
     weather[1] = weatherJson.result.daily[1].day.weather;
     weather[2] = weatherJson.result.daily[2].day.weather;
     weather[3] = weatherJson.result.daily[3].day.weather;
