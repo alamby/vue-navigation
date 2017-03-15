@@ -56,7 +56,7 @@
 
 	<!-- Header -->
 	<div class="header mdui-color-blue mdui-col-xs-12 mdui-toolbar">
-		<div>Chaofan's &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Yet Another Vue base's toy</div>
+		<div>Chaofan</div>
 		<div class="mdui-toolbar-spacer"></div>
 		<div class="weather_entry" v-on:click="showWeather">
 			<p class="now_city"></p>
